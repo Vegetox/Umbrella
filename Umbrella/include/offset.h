@@ -1,7 +1,7 @@
 #pragma once
 #include <cstddef>
 
-// 2021-05-25 07:12:46.663617100 UTC
+// 2021-05-28 08:46:38.596301300 UTC
 
 namespace hazedumper {
 	namespace netvars {
@@ -105,7 +105,7 @@ namespace hazedumper {
 		constexpr ::std::ptrdiff_t clientstate_last_outgoing_command = 0x4D2C;
 		constexpr ::std::ptrdiff_t clientstate_net_channel = 0x9C;
 		constexpr ::std::ptrdiff_t convar_name_hash_table = 0x2F0F8;
-		constexpr ::std::ptrdiff_t dwClientState = 0x587FE4;
+		constexpr ::std::ptrdiff_t dwClientState = 0x588FE4;
 		constexpr ::std::ptrdiff_t dwClientState_GetLocalPlayer = 0x180;
 		constexpr ::std::ptrdiff_t dwClientState_IsHLTV = 0x4D48;
 		constexpr ::std::ptrdiff_t dwClientState_Map = 0x28C;
@@ -122,11 +122,11 @@ namespace hazedumper {
 		constexpr ::std::ptrdiff_t dwForceJump = 0x524BECC;
 		constexpr ::std::ptrdiff_t dwForceLeft = 0x31D2670;
 		constexpr ::std::ptrdiff_t dwForceRight = 0x31D2694;
-		constexpr ::std::ptrdiff_t dwGameDir = 0x626780;
+		constexpr ::std::ptrdiff_t dwGameDir = 0x627780;
 		constexpr ::std::ptrdiff_t dwGameRulesProxy = 0x52BF1BC;
 		constexpr ::std::ptrdiff_t dwGetAllClasses = 0xDB0F6C;
-		constexpr ::std::ptrdiff_t dwGlobalVars = 0x587CE8;
-		constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x52EA550;
+		constexpr ::std::ptrdiff_t dwGlobalVars = 0x588CE8;
+		constexpr ::std::ptrdiff_t dwGlowObjectManager = 0x52EA570;
 		constexpr ::std::ptrdiff_t dwInput = 0x51F36A0;
 		constexpr ::std::ptrdiff_t dwInterfaceLinkList = 0x944D14;
 		constexpr ::std::ptrdiff_t dwLocalPlayer = 0xD892CC;
@@ -142,9 +142,9 @@ namespace hazedumper {
 		constexpr ::std::ptrdiff_t dwWeaponTableIndex = 0x325C;
 		constexpr ::std::ptrdiff_t dwYawPtr = 0xD8EA78;
 		constexpr ::std::ptrdiff_t dwZoomSensitivityRatioPtr = 0xD93D18;
-		constexpr ::std::ptrdiff_t dwbSendPackets = 0xD762A;
+		constexpr ::std::ptrdiff_t dwbSendPackets = 0xD76DA;
 		constexpr ::std::ptrdiff_t dwppDirect3DDevice9 = 0xA7050;
-		constexpr ::std::ptrdiff_t find_hud_element = 0x2F8DF980;
+		constexpr ::std::ptrdiff_t find_hud_element = 0x2E23F980;
 		constexpr ::std::ptrdiff_t force_update_spectator_glow = 0x3AFD6A;
 		constexpr ::std::ptrdiff_t interface_engine_cvar = 0x3E9EC;
 		constexpr ::std::ptrdiff_t is_c4_owner = 0x3BC9C0;
@@ -153,7 +153,7 @@ namespace hazedumper {
 		constexpr ::std::ptrdiff_t m_pStudioHdr = 0x294C;
 		constexpr ::std::ptrdiff_t m_pitchClassPtr = 0x51D70F0;
 		constexpr ::std::ptrdiff_t m_yawClassPtr = 0xD8EA78;
-		constexpr ::std::ptrdiff_t model_ambient_min = 0x58B05C;
+		constexpr ::std::ptrdiff_t model_ambient_min = 0x58C05C;
 		constexpr ::std::ptrdiff_t set_abs_angles = 0x1E0B80;
 		constexpr ::std::ptrdiff_t set_abs_origin = 0x1E09C0;
 	} // namespace signatures
